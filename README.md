@@ -11,7 +11,7 @@ welcome to life pharamcy
 ![image alt](images/product8.jpg)
 ![image alt](images/product9.jpg)
 ![image alt](images/product10.jpg)
-![image alt](https://github.com/Shahdhussein552/pharmacy/blob/main/images/p1.jpg?raw=true)
+![image alt](images/p1.jpg)
 
 
 
