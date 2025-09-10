@@ -41,6 +41,11 @@ welcome to life pharamcy
 ![image_alt](images/tab8.jpg)
 ![image_alt](images/tab9.jpg)
 ![image_alt](images/tab10.jpg)
+![image_alt](images/diapers.jpg)
+![image_alt](images/baby formula.jpg)
+![image_alt](images/wet wipes.jpg)
+![image_alt](images/diaper rush cream.jpg)
+
 
 
 
