@@ -11,7 +11,7 @@ welcome to life pharamcy
 ![image alt](images/product8.jpg)
 ![image alt](images/product9.jpg)
 ![image alt](images/product10.jpg)
-![image alt](images/p1.jpg)
+![image alt]()
 
 
 
