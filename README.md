@@ -12,11 +12,15 @@ welcome to life pharamcy
 ![image alt](images/product9.jpg)
 ![image alt](images/product10.jpg)
 ![image_alt](images/p1.jpg)
-![image_alt](images/p1.jpg)
-![image_alt](images/p1.jpg)
-![image_alt](images/p1.jpg)
-![image_alt](images/p1.jpg)
-![image_alt](images/p1.jpg)
+![image_alt](images/p2.jpg)
+![image_alt](images/p3.jpg)
+![image_alt](images/p4.jpg)
+![image_alt](images/p5.jpg)
+![image_alt](images/p6.jpg)
+![image_alt](images/p7.jpg)
+![image_alt](images/p8.jpg)
+![image_alt](images/p9.jpg)
+![image_alt](images/p10.jpg)
 
 
 
