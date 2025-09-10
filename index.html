@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Pharmacy</title>
+  <link rel="stylesheet" href="pharmacy.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo-container">
+      <div class="logo">
+        Life Pharmacy
+        <img src="images/logo.jpg" alt="Pharmacy Snake">
+      </div>
+      <div class="quote">"Your health, our priority"</div>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#products">Products</a>
+      <a href="#other-products">Other Products</a>
+      <a href="#shopping-list-container">Shopping List<i class="fa-solid fa-cart-shopping"></i></a>
+      <a href="#login">Login</a>
+      <a href="#register">Register</a>
+      <button id="toggle-mode">🌙 Dark Mode</button>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home">
+    <h2>Welcome to Life Pharmacy</h2>
+    <p>We provide the best medicines and healthcare services with care and experience, available 24/7.</p>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Life Pharmacy is committed to your health and comfort. We provide trusted medicines, delivery services, medical consultations, and healthcare products.</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Prescription dispensing</li>
+      <li>Home delivery services</li>
+      <li>Blood Pressure & sugar testing</li>
+      <li>Free medical consultations</li>
+      <li>Medication schedule reminders</li>
+      <li>Skincare & haircare products</li>
+      <li>Medical equipment supply</li>
+      <li>24/7 customer support</li>
+    </ul>
+  </section>
+
+  <!-- Search Bar -->
+  <section id="search">
+    <input type="text" id="searchBar" placeholder="Search for a product...">
+  </section>
+
+  <!-- Categories -->
+  <section id="categories">
+    <button class="category-btn" data-category="all">All</button>
+    <button class="category-btn" data-category="skincare">Skincare</button>
+    <button class="category-btn" data-category="haircare">Haircare</button>
+    <button class="category-btn" data-category="vitamins">Vitamins</button>
+    <button class="category-btn" data-category="pain">Pain Relief</button>
+    <button class="category-btn" data-category="baby">Baby Products</button>
+    <button class="category-btn" data-category="home medical devices">Home Medical Devices</button>
+    <button class="category-btn" data-category="personal care">Personal Care</button>
+    <button class="category-btn" data-category="cosmetics">Cosmetics</button>
+    <button class="category-btn" data-category="Diet & Nutrition">Diet & Nutrition</button>
+    <button class="category-btn" data-category="first aid">First Aid</button>
+    <button class="category-btn" data-category="sesonal products">Sesonal Products</button>
+    <button class="category-btn" data-category="paper products">Paper Products</button>
+  </section>
+
+  <!-- Products -->
+  <section id="products">
+    <h2>Our Products</h2>
+
+    <!-- Skincare -->
+    <h3>Skincare Products</h3>
+    <p>Nourishing creams and treatments for healthy, glowing skin</p>
+    <div class="card-grid">
+      <div class="card" data-category="skincare" data-price="10">
+        <img src="images/product1.jpg" alt="Skincare 1">
+        <p>Moisturizing Cream - $10</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="skincare" data-price="15">
+        <img src="images/product2.jpg" alt="Skincare 2">
+        <p>Face Wash - $15</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="skincare" data-price="20">
+        <img src="images/product3.jpg" alt="Skincare 3">
+        <p>Sunscreen Lotion - $20</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="skincare" data-price="25">
+        <img src="images/product4.jpg" alt="Skincare 4">
+        <p>Night Cream - $25</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="skincare" data-price="30">
+        <img src="images/product5.jpg" alt="Skincare 5">
+        <p>Eye Serum - $30</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="skincare" data-price="40">
+        <img src="images/product6.jpg" alt="Skincare 6">
+        <p>Aloe Vera Gel - $40</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="skincare" data-price="45">
+        <img src="images/product7.jpg" alt="Skincare 7">
+        <p>Body Lotion - $45</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="skincare" data-price="55">
+        <img src="images/product8.jpg" alt="Skincare 8">
+        <p>Face Mask - $55</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="skincare" data-price="50">
+        <img src="images/product9.jpg" alt="Skincare 9">
+        <p>Hand Cream - $50</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="skincare" data-price="60">
+        <img src="images/product10.jpg" alt="Skincare 10">
+        <p>Skin Toner - $60</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+    </div>
+
+    <!-- Haircare -->
+    <h3>Haircare Products</h3>
+    <p>Shampoos, oils, and treatments for strong, shiny hair</p>
+    <div class="card-grid">
+      <div class="card" data-category="haircare" data-price="12">
+        <img src="images/p1.jpg" alt="Haircare 1">
+        <p>Shampoo - $12</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="haircare" data-price="15">
+        <img src="images/p2.jpg" alt="Haircare 2">
+        <p>Conditioner - $15</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="haircare" data-price="18">
+        <img src="images/p3.jpg" alt="Haircare 3">
+        <p>Hair Oil - $18</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="haircare" data-price="20">
+        <img src="images/p4.jpg" alt="Haircare 4">
+        <p>Hair Serum - $20</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="haircare" data-price="22">
+        <img src="images/p5.jpg" alt="Haircare 5">
+        <p>Hair Mask - $22</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="haircare" data-price="17">
+        <img src="images/p6.jpg" alt="Haircare 6">
+        <p>Anti-Dandruff Lotion - $17</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="haircare" data-price="19">
+        <img src="images/p7.jpg" alt="Haircare 7">
+        <p>Hair Spray - $19</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="haircare" data-price="14">
+        <img src="images/p8.jpg" alt="Haircare 8">
+        <p>Hair Gel - $14</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="haircare" data-price="16">
+        <img src="images/p9.jpg" alt="Haircare 9">
+        <p>Leave-in Conditioner - $16</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="haircare" data-price="25">
+        <img src="images/p10.jpg" alt="Haircare 10">
+        <p>Hair Growth Serum - $25</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+    </div>
+
+    <!-- Vitamins -->
+    <h3>Vitamins & Supplements</h3>
+    <p>Essential supplements to boost energy and immunity</p>
+    <div class="card-grid">
+      <div class="card" data-category="vitamins" data-price="10">
+        <img src="images/v1.jpg" alt="Vitamin 1">
+        <p>Vitamin C - $10</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="vitamins" data-price="12">
+        <img src="images/v2.jpg" alt="Vitamin 2">
+        <p>Vitamin D - $12</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="vitamins" data-price="15">
+        <img src="images/v3.jpg" alt="Vitamin 3">
+        <p>Vitamin B12 - $15</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="vitamins" data-price="18">
+        <img src="images/v4.jpg" alt="Vitamin 4">
+        <p>Vitamin E - $18</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="vitamins" data-price="20">
+        <img src="images/v5.jpg" alt="Vitamin 5">
+        <p>Calcium Tablets - $20</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="vitamins" data-price="22">
+        <img src="images/v6.jpg" alt="Vitamin 6">
+        <p>Omega 3 - $22</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="vitamins" data-price="25">
+        <img src="images/v7.jpg" alt="Vitamin 7">
+        <p>Iron Supplements - $25</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="vitamins" data-price="17">
+        <img src="images/v8.jpg" alt="Vitamin 8">
+        <p>Zinc Tablets - $17</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="vitamins" data-price="19">
+        <img src="images/v9.jpg" alt="Vitamin 9">
+        <p>Magnesium - $19</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="vitamins" data-price="30">
+        <img src="images/v10.jpg" alt="Vitamin 10">
+        <p>Multivitamin - $30</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+    </div>
+
+    <!-- Pain Relief -->
+    <h3>Pain Relief</h3>
+    <p>Fast and effective solutions for everyday aches</p>
+    <div class="card-grid">
+      <div class="card" data-category="pain" data-price="10">
+        <img src="images/tab1.jpg" alt="Pain Relief 1">
+        <p>Painkiller Tablets - $10</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="pain" data-price="12">
+        <img src="images/tab2.jpg" alt="Pain Relief 2">
+        <p>Pain Relief Gel - $12</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="pain" data-price="15">
+        <img src="images/tab3.jpg" alt="Pain Relief 3">
+        <p>Hot Patches - $15</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="pain" data-price="8">
+        <img src="images/tab4.jpg" alt="Pain Relief 4">
+        <p>Cold Patches - $8</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="pain" data-price="20">
+        <img src="images/tab5.jpg" alt="Pain Relief 5">
+        <p>Back Pain Belt - $20</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="pain" data-price="18">
+        <img src="images/tab6.jpg" alt="Pain Relief 6">
+        <p>Muscle Relaxant - $18</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="pain" data-price="15">
+        <img src="images/tab7.jpg" alt="Pain Relief 7">
+        <p>Joint Cream - $15</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="pain" data-price="12">
+        <img src="images/tab8.jpg" alt="Pain Relief 8">
+        <p>Knee Support - $12</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="pain" data-price="10">
+        <img src="images/tab9.jpg" alt="Pain Relief 9">
+        <p>Heat Spray - $10</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+      <div class="card" data-category="pain" data-price="14">
+        <img src="images/tab10.jpg" alt="Pain Relief 10">
+        <p>Neck Support - $14</p>
+        <button class="btn">Add To Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Other Products -->
+  <section id="other-products" class="other-products">
+    <h2>Other Products</h2>
+    <section class="category">
+      <h3>Baby Products</h3>
+      <ul>
+        <li data-category="baby"><img src="images/diapers.jpg" alt="Diapers"> 
+        <p> Diapers - $14</p>
+        <button class="btn">Add To Cart</button></li>
+        <li data-category="baby"><img src="images/baby_formula.jpg" alt="Baby Formula"> 
+        <p> Baby Formula - $20</p>
+        <button class="btn">Add To Cart</button></li>
+        <li data-category="baby"><img src="images/wet_wipes.jpg" alt="Wet Wipes">
+        <p> Wet Wipes - $22</p>
+        <button class="btn">Add To Cart</button></li>
+        <li data-category="baby"><img src="images/diaper_rush_cream.jpg" alt="Diaper Rash Cream"> 
+        <p>Diaper Rash Cream- $35</p>
+        <button class="btn">Add To Cart</button></li>
+      </ul>
+    </section>
+
+    <section class="category">
+      <h3>Home Medical Devices</h3>
+      <ul>
+        <li data-category="home medical devices"><img src="images/Blood_Pressure_Monitor.jpg" alt="Blood Pressure Monitor">   
+        <p>Blood Pressure Monitor- $35</p>
+        <button class="btn">Add To Cart</button></li>
+        <li data-category="home medical devices"><img src="images/Glucose_Meter.jpg" alt="Glucose Meter">
+        <p>Glucose Meter- $40</p>
+        <button class="btn">Add To Cart</button></li>
+        <li data-category="home medical devices"><img src="images/Thermometer.jpg" alt="Thermometer">   
+        <p>Thermometer- $48</p>
+        <button class="btn">Add To Cart</button></li>
+        <li data-category="home medical devices"><img src="images/Nebulizer.jpg" alt="Nebulizer">    
+        <p>Nebulizer- $50</p>
+        <button class="btn">Add To Cart</button></li>
+      </ul>
+    </section>
+
+    <section class="category">
+      <h3>Personal Care</h3>
+      <ul>
+        <li data-category="personal care"><img src="images/Toothbrush.jpg" alt="Toothbrush">  
+        <p>Nebulizer- $55</p>
+        <button class="btn">Add To Cart</button>
+        <li data-category="personal care"><img src="images/Toothpaste.jpg" alt="Toothpaste"> 
+        <p>Toothpaste- $48</p>
+        <button class="btn">Add To Cart</button></li>
+        <li data-category="personal care"><img src="images/Mouthwash.jpg" alt="Mouthwash">    
+        <p>Mouthwash- $53</p>
+        <button class="btn">Add To Cart</button></li>
+        <li data-category="personal care"><img src="images/Shower_Gel.jpg" alt="Shower Gel">   
+        <p>Shower Gel- $35</p>
+        <button class="btn">Add To Cart</button></li>
+      </ul>
+    </section>
+
+    <section class="category">
+  <h3>Cosmetics</h3>
+  <ul>
+    <li data-category="cosmetics">
+      <img src="images/Foundation.jpg" alt="Foundation">
+      <p>Foundation - $45</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="cosmetics">
+      <img src="images/Lipstick.jpg" alt="Lipstick">
+      <p>Lipstick - $25</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="cosmetics">
+      <img src="images/Mascara.png" alt="Mascara">
+      <p>Mascara - $30</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="cosmetics">
+      <img src="images/Moisturizer.png" alt="Moisturizer">
+      <p>Moisturizer - $40</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+  </ul>
+</section>
+
+<section class="category">
+  <h3>Diet & Nutrition</h3>
+  <ul>
+    <li data-category="diet">
+      <img src="images/Protein_Bar.jpg" alt="Protein Bar">
+      <p>Protein Bar - $15</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="diet">
+      <img src="images/Sugar_Free_Products.jpg" alt="Sugar-Free">
+      <p>Sugar-Free Pack - $20</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="diet">
+      <img src="images/Sports_Supplements.jpg" alt="Sports Supplements">
+      <p>Sports Supplements - $60</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="diet">
+      <img src="images/Herbal_Tea.jpg" alt="Herbal Tea">
+      <p>Herbal Tea - $18</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+  </ul>
+</section>
+
+<section class="category">
+  <h3>First Aid</h3>
+  <ul>
+    <li data-category="first-aid">
+      <img src="images/Gauze.jpg" alt="Gauze">
+      <p>Gauze - $10</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="first-aid">
+      <img src="images/Band_Aids.jpg" alt="Band-Aids">
+      <p>Band-Aids - $8</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="first-aid">
+      <img src="images/Alcohol_Disinfectant.png" alt="Alcohol Disinfectant">
+      <p>Alcohol Disinfectant - $12</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="first-aid">
+      <img src="images/Medical_Gloves.png" alt="Medical Gloves">
+      <p>Medical Gloves - $15</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+  </ul>
+</section>
+
+<section class="category">
+  <h3>Seasonal Products</h3>
+  <ul>
+    <li data-category="seasonal">
+      <img src="images/sunscreen.jpg" alt="Sunscreen">
+      <p>Sunscreen - $25</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="seasonal">
+      <img src="images/Moisturizing_Cream.jpg" alt="Moisturizing Cream">
+      <p>Moisturizing Cream - $28</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="seasonal">
+      <img src="images/Mosquito_Repellent.jpg" alt="Mosquito Repellent">
+      <p>Mosquito Repellent - $22</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="seasonal">
+      <img src="images/Vitamin_C.jpg" alt="Vitamin C">
+      <p>Vitamin C - $18</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+  </ul>
+</section>
+
+<section class="category">
+  <h3>Paper Products</h3>
+  <ul>
+    <li data-category="paper">
+      <img src="images/Tissues.jpg" alt="Tissues">
+      <p>Tissues - $5</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="paper">
+      <img src="images/Kitchen_Towels.jpg" alt="Kitchen Towels">
+      <p>Kitchen Towels - $12</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="paper">
+      <img src="images/Pocket_Tissues.jpg" alt="Pocket Tissues">
+      <p>Pocket Tissues - $3</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+    <li data-category="paper">
+      <img src="images/Toilet_Paper.jpg" alt="Toilet Paper">
+      <p>Toilet Paper - $10</p>
+      <button class="btn">Add To Cart</button>
+    </li>
+  </ul>
+</section>
+
+
+  <!-- Shopping List -->
+  <section id="shopping-list-container">
+    <div>
+      <h2>🛒 Shopping List</h2>
+      <p id="cart-count">Number of Products: 0</p>
+      <ul id="shopping-list"></ul>
+      <p id="total-price">Total: $0</p>
+    </div>
+  </section>
+
+  <!-- Login -->
+  <section id="login">
+    <h2>Login</h2>
+    <form>
+      <label for="login-username">Username</label><br>
+      <input type="text" id="login-username" name="username" placeholder="Enter your username" required><br><br>
+
+      <label for="login-password">Password</label><br>
+      <input type="password" id="login-password" name="password" placeholder="Enter your password" required><br><br>
+
+      <button type="submit">Login</button>
+      <p>Don't have an account? <a href="#register">Register Here</a></p>
+    </form>
+  </section>
+
+  <!-- Register -->
+  <section id="register">
+    <h2>Register</h2>
+    <form>
+      <fieldset>
+        <legend>Registration Form</legend>
+
+        <label for="fullname">Name</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required><br><br>
+
+        <label for="reg-username">Username</label><br>
+        <input type="text" id="reg-username" name="username" placeholder="Enter your username" required><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="confirm-email">Confirm Email</label><br>
+        <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirm your email" required><br><br>
+
+        <label for="reg-password">Password</label><br>
+        <input type="password" id="reg-password" name="password" placeholder="Enter your password" required><br><br>
+
+        <label for="phone">Phone Number</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" placeholder="Write your message here" required></textarea><br><br>
+
+        <button type="submit">Register</button>
+      </fieldset>
+    </form>
+  </section>
+
+  <!-- Chatbot -->
+  <div class="chatbot">
+    <div class="chat-icon" onclick="toggleChat()">💬</div>
+    <div class="chat-box" id="chatBox">
+      <h4>Choose a way to contact the pharmacy</h4>
+      <a href="https://wa.me/+20 01154746382" target="_blank">📱 WhatsApp</a>
+      <a href="https://m.me/shahdhussein552" target="_blank">💬 Messenger</a>
+      <a href="mailto:shahdhussein3365@gmail.com">📧 Email</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-links">
+      <div class="column">
+        <a href="#">Our Branches</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <div class="column">
+        <a href="#">Request a Prescription</a>
+        <a href="#">Order & Collect Service</a>
+        <a href="#">Ministry of Health Number 937</a>
+      </div>
+      <div class="column">
+        <a href="#">Health Insurance Council</a>
+        <a href="#">Offers Authorization</a>
+        <a href="#">Suppliers Platform</a>
+      </div>
+    </div>
+
+    <div class="footer-social">
+      <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="images/insta.jpg" alt="Instagram"></a>
+      <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 All Rights Reserved | Life Pharmacy | Unified Number: 800-244-4444 | CR: 2051025701</p>
+    </div>
+  </footer>
+
+  <!-- JS file -->
+  <script src="pharmacy.js"></script>
+</body>
+</html>
