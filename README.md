@@ -21,6 +21,17 @@ welcome to life pharamcy
 ![image_alt](images/p8.jpg)
 ![image_alt](images/p9.jpg)
 ![image_alt](images/p10.jpg)
+![image_alt](images/v1.jpg)
+![image_alt](images/v2.jpg)
+![image_alt](images/v3.jpg)
+![image_alt](images/v4.jpg)
+![image_alt](images/v5.jpg)
+![image_alt](images/v6.jpg)
+![image_alt](images/v7.jpg)
+![image_alt](images/v8.jpg)
+![image_alt](images/v9.jpg)
+![image_alt](images/v10.jpg)
+![image_alt]()
 
 
 
