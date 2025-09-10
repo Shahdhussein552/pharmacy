@@ -45,6 +45,38 @@ welcome to life pharamcy
 ![image_alt](images/baby_formula.jpg)
 ![image_alt](images/wet_wipes.jpg)
 ![image_alt](images/diaper_rush_cream.jpg)
+![image_alt](images/Blood_Pressure_Monitor.jpg)
+![image_alt](images/Glucose_Meter.jpg)
+![image_alt](images/Thermometer.jpg)
+![image_alt](images/Nebulizer.jpg)
+![image_alt](images/Toothbrush.jpg)
+![image_alt](images/Toothpaste.jpg)
+![image_alt](images/Mouthwash.jpg)
+![image_alt](images/Shower_Gel.jpg)
+![image_alt](images/Foundation.jpg)
+![image_alt](images/Lipstick.jpg)
+![image_alt](images/Mascara.png)
+![image_alt](images/Moisturizer.png)
+![image_alt](images/Protein_Bar.jpg)
+![image_alt](images/Sugar_Free_Products.jpg)
+![image_alt](images/Sports_Supplements.jpg)
+![image_alt](images/Herbal_Tea.jpg)
+![image_alt](images/Gauze.jpg)
+![image_alt](images/Band_Aids.jpg)
+![image_alt](images/Alcohol_Disinfectant.png)
+![image_alt](images/Medical_Gloves.png)
+![image_alt](images/sunscreen.jpg)
+![image_alt](images/Moisturizing_Cream.jpg)
+![image_alt](images/Mosquito_Repellent.jpg)
+![image_alt](images/Vitamin_C.jpg)
+![image_alt](images/Tissues.jpg)
+![image_alt](images/Kitchen_Towels.jpg)
+![image_alt](images/Pocket_Tissues.jpg)
+![image_alt](images/Toilet_Paper.jpg)
+
+
+
+
 
 
 
